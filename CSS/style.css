@@ -73,15 +73,14 @@ main {
 
 .container-jumbo-left {
    width: 30%;
-   height: 400px;
-   border: 2px dashed black;
+   position: relative;
+   text-align: left;
 
 }
 
 .container-jumbo-right {
    width: 70%;
-   height: 400px;
-   border: 2px dashed black;
+   position: relative;
 }
 
 .jumbo {
@@ -91,6 +90,35 @@ main {
 .container-p-business {
    max-width: 1180px;
    margin: 0 auto;
+}
+
+.image{
+   width: 756px;
+   height: 438px;
+   position: absolute;
+   top: 38px;
+   right: 58px;
+}
+
+.p{
+   padding-top: 32px;
+   font-size: 22px;
+}
+
+.button-2{
+   color: white;
+   background-color: #0061FE;
+   padding: 10px;
+   margin-top: 25px;
+
+}
+
+.arrow{
+font-size: 45px;
+position: absolute;
+top: 340px;
+right: 320px;
+
 }
 
 
@@ -147,4 +175,20 @@ ul {
 
 .py-50{
    padding-top: 45px;
+}
+
+.width-50{
+   width: 50%;
+}
+
+.text-align{
+   text-align: center;
+}
+
+.my-top{
+   margin-top: 25px;
+}
+
+.py-bottom-90{
+   padding-bottom: 90px;
 }
