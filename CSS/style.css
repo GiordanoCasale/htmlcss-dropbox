@@ -143,6 +143,33 @@ width: 50%;
    
 }
 
+.container-col{
+   max-width: 1100px;
+   height: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-30{
+   width: 30%;
+   border: 1px solid #D9D8DC;
+}
+
+.card{
+   width: 100%;
+   position: relative;
+}
+
+.col-head-1{
+   width: 100%;
+   border: 1px solid #D9D8DC ;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 
 
 
@@ -160,6 +187,11 @@ width: 50%;
 
 .bg-botton{
    background-color: #0061FE;
+
+}
+
+.bg-green{
+   background-color: green;
 }
 
 .d-inline-block {
@@ -233,5 +265,9 @@ ul {
 
 .my-right{
    margin-right: 5px;
+}
+
+.my-top-col{
+   margin-top: 33px;
 }
 
