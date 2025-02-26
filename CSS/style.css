@@ -134,13 +134,13 @@ right: 320px;
 
 .radio-button-1{
 width: 50%;
-border: 2px dashed black;
+
 
 }
 
 .radio-button-2{
    width: 50%;
-   border: 2px dashed black;
+   
 }
 
 
@@ -215,10 +215,23 @@ ul {
    padding-bottom: 90px;
 }
 
-.space-around{
-   justify-content: space-around;
+.flex-start{
+   justify-content: flex-start;
 }
 
 .my-10{
-   
+   margin: 10px;
 }
+
+.my-general{
+   margin: 30px;
+}
+
+.my-top-button{
+   margin-top: 45px;
+}
+
+.my-right{
+   margin-right: 5px;
+}
+
