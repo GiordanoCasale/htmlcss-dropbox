@@ -90,6 +90,7 @@ main {
 .container-p-business {
    max-width: 1180px;
    margin: 0 auto;
+   
 }
 
 .image{
@@ -119,6 +120,27 @@ position: absolute;
 top: 340px;
 right: 320px;
 
+}
+
+.h2{
+   margin-top: 231px;
+   font-size: 50px;
+}
+
+.Fatturation-button{
+   max-width: 30%;
+   
+}
+
+.radio-button-1{
+width: 50%;
+border: 2px dashed black;
+
+}
+
+.radio-button-2{
+   width: 50%;
+   border: 2px dashed black;
 }
 
 
@@ -191,4 +213,12 @@ ul {
 
 .py-bottom-90{
    padding-bottom: 90px;
+}
+
+.space-around{
+   justify-content: space-around;
+}
+
+.my-10{
+   
 }
