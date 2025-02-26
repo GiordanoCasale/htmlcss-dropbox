@@ -185,6 +185,11 @@ width: 50%;
    
 }
 
+.square{
+   width: 100%;
+   border: 2px dashed black;
+}
+
 
 
 
@@ -320,4 +325,8 @@ text-align: left;
 
 .line-height-2{
    line-height: 50px;
+}
+
+.flex-wrap{
+   flex-wrap: wrap;
 }
