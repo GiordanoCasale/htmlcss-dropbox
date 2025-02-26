@@ -187,8 +187,8 @@ width: 50%;
 
 .square{
    width: 100%;
-   height: 300px;
-   border: 2px dashed black;
+   height: 251px;
+   border: 1px solid #D9D8DC;
 
 }
 
@@ -198,12 +198,10 @@ width: 50%;
 
 .square-left{
    width: 70%;
-   border: 2px dashed black;
 }
 
 .square-right{
    width: 30%;
-   border: 2px dashed black;
 }
 
 .button-4{
@@ -211,6 +209,7 @@ width: 50%;
    background-color: #0061FE;
    padding: 10px;
    margin-right: 25px;
+   margin-top: 25px;
    
 }
 
@@ -242,6 +241,10 @@ width: 50%;
 
 .color-check{
    color: #0062FF;
+}
+
+.color-white{
+   color: white;
 }
 
 .d-inline-block {
@@ -283,6 +286,14 @@ ul {
 
 .py-50{
    padding-top: 45px;
+}
+
+.py-60{
+   padding-top: 13%;
+}
+
+.py-l-20{
+   padding-left: 20px;
 }
 
 .width-50{
@@ -328,6 +339,14 @@ text-align: left;
 
 .my-right-45{
    margin-right: 45px;
+}
+
+.my-right-40{
+   margin-right: 45px;
+}
+
+.my-right-square{
+   margin-right: 10px;
 }
 
 
