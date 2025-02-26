@@ -66,19 +66,20 @@ main {
    max-width: 1180px;
    margin: 0 auto;
    padding-bottom: 0px;
+   text-align: center;
 
 
 }
 
 .container-jumbo-left {
-   width: 50%;
+   width: 30%;
    height: 400px;
    border: 2px dashed black;
 
 }
 
 .container-jumbo-right {
-   width: 50%;
+   width: 70%;
    height: 400px;
    border: 2px dashed black;
 }
@@ -137,9 +138,13 @@ ul {
 }
 
 .font-size{
-   font-size: 0px;
+   font-size: 72px;
 }
 
 .d-flex{
    display: flex;
+}
+
+.py-50{
+   padding-top: 45px;
 }
