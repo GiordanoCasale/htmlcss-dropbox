@@ -254,19 +254,33 @@ height: 700px;
    border: 1px solid black;
 }
 
+.h2-title{
+   text-align: center;
+   font-size: 34px;
+}
+
 .container-col-2{
    max-width: 1100px;
-   height: 700px;
-   border: 2px dashed black;
+   height: 900px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    margin-top: 80px;
 }
 
-.h2-title{
-   
+.col-30-2{
+   width: 30%;
+   height: 400px;
 }
 
+.card-2{
+   width: 100%;
+   position: relative;
+}
+
+.card-2 img{
+   max-width: 100%;
+}
 
 
 
@@ -419,6 +433,14 @@ text-align: left;
 
 .my-bottom-col{
    margin-bottom: 20px;
+}
+
+.my-top-10{
+   margin-top: 10px;
+}
+
+.my-top-150{
+   margin-top: 150px;
 }
 
 .line-height{
