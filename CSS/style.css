@@ -221,25 +221,37 @@ width: 50%;
    max-width: 1100px;
    margin: 0 auto;
    display: flex;
-   margin-top: 330px;
+   margin-top: 400px;
 
 }
 
 .square-lef-2{
    width: 70%;
-   border: 2px dashed black;
-   height: 300px;
+   height: 700px;
+}
+
+.square-left-content{
+   margin-top: 100px;
+   
 }
 
 .square-right-2{
 width: 30%;
-border: 2px dashed black;
-height: 300px;
+height: 700px;
 }
 
 .parter-image{
-   width: 200px;
-   height: 200px;
+   width: 713px;
+   height: 572px;
+}
+
+.Button-5{
+   color: black;
+   background-color: white;
+   padding: 10px;
+   margin-right: 25px;
+   margin-top: 25px;
+   border: 1px solid black;
 }
 
 
@@ -275,6 +287,10 @@ height: 300px;
 
 .color-white{
    color: white;
+}
+
+.col-black{
+   color: black;
 }
 
 .d-inline-block {
