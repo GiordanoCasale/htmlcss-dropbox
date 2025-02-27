@@ -4,8 +4,8 @@
    box-sizing: border-box;
 }
 
- *{
-font-family: Arial, Helvetica, sans-serif;
+* {
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 /*common*/
@@ -23,8 +23,10 @@ main {
    padding-top: 100px;
 }
 
-footer{
+footer {
    background-color: #000000;
+   color: white;
+   left: 25px;
 }
 
 .container {
@@ -46,7 +48,7 @@ footer{
    align-items: center;
 }
 
-.container-text-3{
+.container-text-3 {
    width: 40%;
    text-align: right;
    display: flex;
@@ -54,7 +56,7 @@ footer{
    justify-content: flex-end;
 }
 
-.container-text-4{
+.container-text-4 {
    width: 10%;
    text-align: right;
    display: flex;
@@ -64,7 +66,7 @@ footer{
 
 }
 
-.button{
+.button {
    color: white;
    background-color: #0061FE;
    padding: 10px;
@@ -98,10 +100,10 @@ footer{
 .container-p-business {
    max-width: 1180px;
    margin: 0 auto;
-   
+
 }
 
-.image{
+.image {
    width: 756px;
    height: 438px;
    position: absolute;
@@ -109,12 +111,12 @@ footer{
    right: 58px;
 }
 
-.p{
+.p {
    padding-top: 102px;
    font-size: 19px;
 }
 
-.button-2{
+.button-2 {
    color: white;
    background-color: #0061FE;
    padding: 10px;
@@ -122,106 +124,106 @@ footer{
 
 }
 
-.arrow{
-font-size: 45px;
-position: absolute;
-top: 400px;
-right: 320px;
+.arrow {
+   font-size: 45px;
+   position: absolute;
+   top: 400px;
+   right: 320px;
 
 }
 
-.h2{
+.h2 {
    margin-top: 231px;
    font-size: 50px;
 }
 
-.Fatturation-button{
+.Fatturation-button {
    max-width: 33%;
-   
-}
-
-.radio-button-1{
-width: 50%;
-
 
 }
 
-.radio-button-2{
+.radio-button-1 {
    width: 50%;
-   
+
+
 }
 
-.container-col{
+.radio-button-2 {
+   width: 50%;
+
+}
+
+.container-col {
    max-width: 1100px;
    height: 1000px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
 }
 
-.col-30{
+.col-30 {
    width: 30%;
    border: 1px solid #D9D8DC;
 }
 
-.card{
+.card {
    width: 100%;
    position: relative;
 }
 
-.col-head-1{
+.col-head-1 {
    width: 100%;
-   border: 1px solid #D9D8DC ;
+   border: 1px solid #D9D8DC;
    height: 50px;
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
-.button-3{
+.button-3 {
    color: white;
    background-color: #0061FE;
    padding: 10px;
    margin-top: 25px;
    width: 100%;
-   
+
 
 }
 
-.hr{
+.hr {
    width: 20%;
-   
+
 }
 
-.square{
+.square {
    width: 100%;
    height: 270px;
    border: 1px solid #D9D8DC;
 
 }
 
-.container-square-lr{
+.container-square-lr {
    display: flex;
 }
 
-.square-left{
+.square-left {
    width: 70%;
 }
 
-.square-right{
+.square-right {
    width: 30%;
 }
 
-.button-4{
+.button-4 {
    color: white;
    background-color: #0061FE;
    padding: 10px;
    margin-right: 25px;
    margin-top: 25px;
-   
+
 }
 
-.square-2{
+.square-2 {
    max-width: 1100px;
    margin: 0 auto;
    display: flex;
@@ -229,27 +231,27 @@ width: 50%;
 
 }
 
-.square-lef-2{
+.square-lef-2 {
    width: 70%;
    height: 700px;
 }
 
-.square-left-content{
+.square-left-content {
    margin-top: 100px;
-   
+
 }
 
-.square-right-2{
-width: 30%;
-height: 700px;
+.square-right-2 {
+   width: 30%;
+   height: 700px;
 }
 
-.parter-image{
+.parter-image {
    width: 713px;
    height: 572px;
 }
 
-.Button-5{
+.Button-5 {
    color: black;
    background-color: white;
    padding: 10px;
@@ -258,43 +260,59 @@ height: 700px;
    border: 1px solid black;
 }
 
-.h2-title{
+.h2-title {
    text-align: center;
    font-size: 34px;
 }
 
-.container-col-2{
+.container-col-2 {
    max-width: 1100px;
-   height: 900px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 80px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 80px;
 }
 
-.col-30-2{
+.col-30-2 {
    width: 30%;
-   height: 400px;
 }
 
-.card-2{
+.card-2 {
    width: 100%;
    position: relative;
 }
 
-.card-2 img{
+.card-2 img {
    max-width: 100%;
 }
 
-.container-500{
+.container-500 {
    max-width: 1180px;
-   
+   width: 100%;
+   margin: 0 auto
+
 }
 
-.container-f{
+.content-500{
+   width: 80%;
+   margin: 0 auto;
+}
+
+.container-f {
    max-width: 1180px;
    margin: 0 auto;
-   display: block;
+   display: flex;
+   padding: 20px;
+   line-height: 50px;
+}
+
+.container-hr{
+   width: 1180px;
+   margin: 0 auto;
+}
+
+.hr-2{
+   width: 10%;
 }
 
 
@@ -313,24 +331,24 @@ height: 700px;
    background-color: #B4D0E6
 }
 
-.bg-botton{
+.bg-botton {
    background-color: #0061FE;
 
 }
 
-.bg-green{
+.bg-green {
    background-color: green;
 }
 
-.color-check{
+.color-check {
    color: #0062FF;
 }
 
-.color-white{
+.color-white {
    color: white;
 }
 
-.col-black{
+.col-black {
    color: black;
 }
 
@@ -351,144 +369,168 @@ ul {
    margin-right: 50px;
 }
 
-.align-items{
+.align-items {
    align-items: center;
 }
 
-.vertical-align{
+.vertical-align {
    vertical-align: middle;
 }
 
-.font-size{
+.font-size {
    font-size: 72px;
 }
 
-.font-size-col{
+.font-size-col {
    font-size: 28px;
 }
 
-.d-flex{
+.font-size-ita{
+   font-size: 14px;
+}
+
+.d-flex {
    display: flex;
 }
 
-.py-50{
+.py-50 {
    padding-top: 45px;
 }
 
-.py-60{
+.py-60 {
    padding-top: 13%;
 }
 
-.py-l-20{
+.py-l-20 {
    padding-left: 20px;
 }
 
-.width-50{
+.py-top-span{
+   padding-top: 45px;
+}
+
+.width-50 {
    width: 50%;
 }
 
-.text-align{
+.text-align {
    text-align: center;
 }
 
-.text-align-col{
-text-align: left;
+.text-align-col {
+   text-align: left;
 }
 
 
-.my-top{
+.my-top {
    margin-top: 25px;
 }
 
-.py-bottom-90{
+.py-bottom-90 {
    padding-bottom: 125px;
 }
 
-.flex-start{
+.py-bottom-span{
+   padding-bottom: 50px;
+}
+
+.flex-start {
    justify-content: flex-start;
 }
 
-.my-10{
+.my-10 {
    margin: 10px;
 }
 
-.my-general{
+.my-76{
+   margin-right: 76px;
+}
+
+.my-general {
    margin: 30px;
 }
 
-.my-top-button{
+.my-top-button {
    margin-top: 45px;
 }
 
-.my-right{
+.my-right {
    margin-right: 5px;
 }
 
-.my-right-45{
+.my-right-45 {
    margin-right: 45px;
 }
 
-.my-right-40{
+.my-right-40 {
    margin-right: 45px;
 }
 
-.my-right-square{
+.my-right-square {
    margin-right: 10px;
 }
 
+.my-right-185{
+   margin-right: 185px;
+}
 
-.my-left{
+.my-left-3{
+   margin-left: 10px;
+}
+
+
+.my-left {
    margin-left: 45px;
 }
 
-.my-left-382{
+.my-left-382 {
    margin-left: 382px
 }
 
-.my-top-col{
+.my-top-col {
    margin-top: 33px;
 }
 
-.my-bottom-col{
+.my-bottom-col {
    margin-bottom: 20px;
 }
 
-.my-top-10{
+.my-top-10 {
    margin-top: 10px;
 }
 
-.my-top-150{
+.my-top-150 {
    margin-top: 150px;
 }
 
-.my-top-300{
+.my-top-300 {
    margin-top: 300px;
 }
 
-.line-height{
+.line-height {
    line-height: 32px;
 }
 
-.line-height-2{
+.line-height-2 {
    line-height: 50px;
 }
 
-.line-height-3{
+.line-height-3 {
    line-height: 106px;
 }
 
-.flex-wrap{
+.flex-wrap {
    flex-wrap: wrap;
 }
 
-.justify-end{
+.justify-end {
    justify-content: flex-end;
 }
 
-.text-align-r{
+.text-align-r {
    text-align: right;
 }
 
-.decoration-text{
+.decoration-text {
    text-decoration: none;
 }
