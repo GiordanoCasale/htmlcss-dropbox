@@ -4,6 +4,10 @@
    box-sizing: border-box;
 }
 
+ *{
+font-family: Arial, Helvetica, sans-serif;
+}
+
 /*common*/
 
 header {
@@ -97,13 +101,13 @@ main {
    width: 756px;
    height: 438px;
    position: absolute;
-   top: 38px;
+   top: 104px;
    right: 58px;
 }
 
 .p{
-   padding-top: 32px;
-   font-size: 22px;
+   padding-top: 102px;
+   font-size: 19px;
 }
 
 .button-2{
@@ -117,7 +121,7 @@ main {
 .arrow{
 font-size: 45px;
 position: absolute;
-top: 340px;
+top: 400px;
 right: 320px;
 
 }
@@ -128,7 +132,7 @@ right: 320px;
 }
 
 .Fatturation-button{
-   max-width: 30%;
+   max-width: 33%;
    
 }
 
@@ -212,6 +216,32 @@ width: 50%;
    margin-top: 25px;
    
 }
+
+.square-2{
+   max-width: 1100px;
+   margin: 0 auto;
+   display: flex;
+   margin-top: 330px;
+
+}
+
+.square-lef-2{
+   width: 70%;
+   border: 2px dashed black;
+   height: 300px;
+}
+
+.square-right-2{
+width: 30%;
+border: 2px dashed black;
+height: 300px;
+}
+
+.parter-image{
+   width: 200px;
+   height: 200px;
+}
+
 
 
 
@@ -314,7 +344,7 @@ text-align: left;
 }
 
 .py-bottom-90{
-   padding-bottom: 90px;
+   padding-bottom: 125px;
 }
 
 .flex-start{
@@ -380,4 +410,8 @@ text-align: left;
 
 .text-align-r{
    text-align: right;
+}
+
+.decoration-text{
+   text-decoration: none;
 }
