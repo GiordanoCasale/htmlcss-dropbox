@@ -23,6 +23,10 @@ main {
    padding-top: 100px;
 }
 
+footer{
+   background-color: #000000;
+}
+
 .container {
    max-width: 1700px;
    margin: 0 auto;
@@ -282,6 +286,16 @@ height: 700px;
    max-width: 100%;
 }
 
+.container-500{
+   max-width: 1180px;
+   
+}
+
+.container-f{
+   max-width: 1180px;
+   margin: 0 auto;
+   display: block;
+}
 
 
 
@@ -427,6 +441,10 @@ text-align: left;
    margin-left: 45px;
 }
 
+.my-left-382{
+   margin-left: 382px
+}
+
 .my-top-col{
    margin-top: 33px;
 }
@@ -443,12 +461,20 @@ text-align: left;
    margin-top: 150px;
 }
 
+.my-top-300{
+   margin-top: 300px;
+}
+
 .line-height{
    line-height: 32px;
 }
 
 .line-height-2{
    line-height: 50px;
+}
+
+.line-height-3{
+   line-height: 106px;
 }
 
 .flex-wrap{
